@@ -7,19 +7,19 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane fx:id="showtabPane" minHeight="25.0" minWidth="350.0" prefHeight="25.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <HBox maxWidth="-Infinity" prefHeight="25.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-         <children>
-            <TextField fx:id="showNameTxt" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="25.0" promptText="Show Name" HBox.hgrow="ALWAYS" />
-            <Button fx:id="seasonDownBtn" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="-" HBox.hgrow="NEVER" />
-            <Button fx:id="seasonUpBtn" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="+" HBox.hgrow="NEVER" />
-            <TextField fx:id="seasonTxt" alignment="CENTER" editable="false" maxHeight="25.0" maxWidth="30.0" minHeight="25.0" minWidth="30.0" prefHeight="25.0" prefWidth="25.0" promptText="S#" />
-            <Button fx:id="episodeDownBtn" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="-" HBox.hgrow="NEVER" />
-            <Button fx:id="episodeUpBtn" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="+" HBox.hgrow="NEVER" />
-            <TextField fx:id="episodeTxt" editable="false" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="30.0" prefHeight="25.0" prefWidth="25.0" promptText="E#" />
-            <TextField fx:id="descriptionTxt" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="25.0" promptText="Notes" HBox.hgrow="ALWAYS" />
-            <Button fx:id="deleteBtn" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="X" HBox.hgrow="NEVER" />
-         </children>
-      </HBox>
-   </children>
+    <children>
+        <HBox maxWidth="-Infinity" prefHeight="25.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <TextField fx:id="showNameTxt" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="25.0" promptText="Show Name" HBox.hgrow="ALWAYS" />
+                <Button fx:id="seasonDownBtn" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="-" HBox.hgrow="NEVER" />
+                <Button fx:id="seasonUpBtn" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="+" HBox.hgrow="NEVER" />
+                <TextField fx:id="seasonTxt" alignment="CENTER" editable="false" maxHeight="25.0" maxWidth="30.0" minHeight="25.0" minWidth="30.0" prefHeight="25.0" prefWidth="25.0" promptText="S#" />
+                <Button fx:id="episodeDownBtn" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="-" HBox.hgrow="NEVER" />
+                <Button fx:id="episodeUpBtn" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="+" HBox.hgrow="NEVER" />
+                <TextField fx:id="episodeTxt" editable="false" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="30.0" prefHeight="25.0" prefWidth="25.0" promptText="E#" />
+                <TextField fx:id="descriptionTxt" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="25.0" promptText="Notes" HBox.hgrow="ALWAYS" />
+                <Button fx:id="deleteBtn" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="X" HBox.hgrow="NEVER" />
+            </children>
+        </HBox>
+    </children>
 </AnchorPane>
