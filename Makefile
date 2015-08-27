@@ -1,10 +1,11 @@
 JC = javac
 DIRS = gui show
-CLASSFILES := $(foreach dir,$(DIRS),$(patsubst %,bin/$(dir)/%.class,$($(dir))))
+CLASS := $(foreach dir, $(DIRS), $(patsubst %.java, %.class, $(wildcard $(dir)/*.java)))
 
-all: $(CLASSFILES)
+run: all
+	java gui.MainGui
 
-bin/%.class: ../%.java
+all: $(CLASS)
 
-clean:
-        $(RM) *.class
+%.class: %.java
+	$(JC) $<
